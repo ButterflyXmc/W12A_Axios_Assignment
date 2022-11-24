@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url(https://wallpaper.dog/large/996996.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    text-align: center;
+    /* font-family: fantasy; */
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 5em;
+    background: linear-gradient(to bottom right, navy 0%, white 100%);
+}
+
+
+
