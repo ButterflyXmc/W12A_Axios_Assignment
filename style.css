@@ -9,14 +9,43 @@ html{
     background-repeat: no-repeat;
     background-size: cover ;
     text-align: center;
-    /* font-family: fantasy; */
 }
 
 header{
     display: grid;
     grid-template-columns: 1fr;
     font-size: 5em;
-    background: linear-gradient(to bottom right, navy 0%, white 100%);
+    background: linear-gradient(to bottom right, black 40%, white 100%);
+    color: rgba(255, 255, 255, 0.267);
+    font-family: 'Copperplate';
+}
+
+
+#result{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 200px;
+    margin-top: 5%;
+    background-color:rgba(0, 0, 0, 0.398);
+    color: white;
+    font-size: 3em;
+    /* font-family: 'Andale Mono'; */
+    font-family: 'Copperplate';
+}
+
+
+#quote_button {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: auto;
+    /* display: flex; */
+    background: linear-gradient(to bottom right, rgba(25, 25, 107, 0.546) 40%, rgba(255, 255, 255, 0.749) 100%);
+    font-size: 5em;
+    color: rgba(255, 255, 255, 0.835);
+    font-family: 'Copperplate';
+    margin-top: 5%;
+    padding: 40px;
 }
 
 
