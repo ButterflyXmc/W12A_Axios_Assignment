@@ -17,7 +17,7 @@ function getRandomQuote(){
 }).then(quoteSuccess).catch(quoteFailure);
 }
 
-///quote changes everytime 
+///quote changes everytime you click on new quote
 quote_button.addEventListener(`click`, getRandomQuote )
 
 

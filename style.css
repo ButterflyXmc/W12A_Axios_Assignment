@@ -29,7 +29,6 @@ header{
     background-color:rgba(0, 0, 0, 0.398);
     color: white;
     font-size: 3em;
-    /* font-family: 'Andale Mono'; */
     font-family: 'Copperplate';
 }
 
@@ -39,7 +38,6 @@ header{
     grid-template-columns: 1fr;
     text-align: center;
     margin: auto;
-    /* display: flex; */
     background: linear-gradient(to bottom right, rgba(25, 25, 107, 0.546) 40%, rgba(255, 255, 255, 0.749) 100%);
     font-size: 5em;
     color: rgba(255, 255, 255, 0.835);
